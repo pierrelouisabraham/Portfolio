@@ -1,13 +1,74 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif;
+  
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2%;
+  padding-left: 2%;
+  align-items: center;
+  background-color: beige;
+}
+
+.header .h1:hover {
+text-decoration: underline;
+background-color: aqua;
+}
+
+.id_photo{
+  width: 140px;
+  height: 140px;
+}
+
+.banner-body{
+  
+  display: flex;
+
+}
+
+.banner{
+  display: flex;
+    flex-direction: column;
+    
+}
+
+.title-job{
+  align-self: center;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+}
+
+.languages{
+  display: flex;
+  flex-direction: column;
+}
+
+.courses{
+  display: flex;
+  flex-direction: column;
+}
+
+.tech{
+  display: flex;
+  flex-direction: column;
+}
+
+.title-tech{
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.company{
+  font-weight: 300;
+}
+
+.years{
+  font-weight: 300;
 }

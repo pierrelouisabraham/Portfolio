@@ -1,10 +1,20 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Header from './components/Header';
+import Cv from './components/Cv';
+import Project from './components/Project';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-function App() {
+const App: React.FC = () => {
+
   return (
+
+    <div>
     <Header/>
+    <Cv/>
+    <Project />
+    </div>
+
   );
 }
 
